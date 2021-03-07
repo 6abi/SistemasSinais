@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from math import cos, e, pi
 
-#converte o ângulç
+#converte o ângulo
 def converteAngulo(alfa):
     return (alfa * (pi / 180))
 
