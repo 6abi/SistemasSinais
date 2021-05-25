@@ -30,7 +30,6 @@ def grafico(xt,yt, t, titulo):
     plt.title(titulo)
     plt.grid(True)
     plt.xlabel('t(s)')
-    plt.ylabel('(X(t))')
     plt.plot(t, xt, label = 'X(t)')
     plt.plot(t, yt, label='Y(t)')
 
@@ -76,7 +75,7 @@ y0 = 0
 t0 = 0
 h = 0.0001
 n = 1000
-v_s = 120
+v_s = 200
 
 x,y, t = RK4(dvDt,dvDt2, x0,y0,t0,h,n)
 
